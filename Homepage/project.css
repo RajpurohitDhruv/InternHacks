@@ -1,0 +1,466 @@
+.navbar{
+    width: 100%;
+    height: 90px;
+    /* background-image: url("headeriamge.jpg"); */
+    background-size: cover;
+    
+    background-color: rgb(0, 0, 0);
+    /* background: linear-gradient(rgb(41, 41, 41),rgb(205, 198, 198)); */
+    display: flex;
+    align-items: center;
+    /* border-radius: 10px 10px 10px 10px; */
+    /* justify-content: center; */
+    /* display: inline-block; */
+    /* margin-top: 2px; */
+    /* padding-top: 2px; */
+}
+.logoandnamebox{
+    width: 210px;
+    height: 60px;
+    /* margin-top: 50px; */
+    margin-left: 35px;
+    /* background-color: #ffffff; */
+    display: flex;
+    align-items: center;
+    border-radius: 50px 50px 50px 50px;
+    background: linear-gradient(rgb(255, 255, 255),#8d8d8a);
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
+    /* display: flex;
+    display: inline; */
+}
+
+
+.projectname{
+    color:#040404;
+    font-size: 30px ;
+    font-weight: normal;
+    margin-left: 58px;
+    margin-top: 6px;
+    /* display: flex; */
+    display: inline-block;
+    font-family: Calibri;
+    /* font-size: 30px; */
+}
+.projectname:hover{
+    /* color: #ff9900;    */
+    color: #0055ff;   
+}
+
+.nav1{
+    margin-left: 800px;
+}
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; /* Adjust the spacing between menu items */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: large;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff9900; /* Change the color on hover */
+}
+
+/* .line2{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(177, 173, 173);
+} */
+
+.logo{
+    width: 47px;
+    height: 47px;
+    margin-left: 5px;
+    /* margin-right: 4px; */
+    /* margin-top: 4px; */
+    border-radius: 50%;
+    background-image: url("logo.jpeg");
+    background-size: cover;
+    background-size: contain;
+    display: flex;
+    /* display: inline; */
+    /* border: white; */
+    /* border: 2px solid white; */
+    /* background-color: aquamarine; */
+}
+
+.lname{
+    /* color:#ffffff; */
+    /* font-size: 30px ; */
+    /* background-color: blue; */
+    /* background: linear-gradient(rgb(51, 51, 160),rgb(181, 160, 160)); */
+    /* margin-left: 1px; */
+    /* margin-top: 10px; */
+    /* display: inline-block; */
+}
+
+.homepage{
+    width: 100%;
+    height: 600px;
+    /* border-radius: 10px 10px 10px 10px; */
+    background-color: transparent;
+    border: 1px solid black ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    /* background: linear-gradient(#3EADCF,#ABE9CD); */
+    background-image: url("Homepagebackgraound_1.jpg");
+    background-size: cover;
+    /* background-size: contain; */
+    background-repeat: no-repeat;    
+}
+
+.hbox1{
+    width: 620px;
+    height: 400px;
+    /* background-color: white; */
+    color: rgb(0, 0, 0);
+    /* border: 1px solid rgb(0, 0, 0); */
+    border-radius: 8px 8px 8px 8px;
+    /* background-color: #90e0ef ; */
+    /* background: linear-gradient(#3EADCF,#ABE9CD); */
+}
+.i1:hover{
+    color: #200681;
+    transition:all ease 1s;
+}
+
+.i1{
+    text-align: center;
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.i1::after{
+    content:"";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0%;
+    margin-left: 20%;
+    /* margin-right: 20%; */
+    align-items: center;
+    background-color: rgb(2, 173, 31);
+    transition: all ease 0.5s;
+}
+.i1:hover::after{
+    width: 60%;
+}
+
+.hbox2{
+    width: 620px;
+    height: 400px;
+    /* background-color: white; */
+    /* border: 1px solid black; */
+    border-radius: 8px 8px 8px 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    /* background-color: #90e0ef ; */
+    /* background: linear-gradient(#3EADCF,#ABE9CD); */
+}
+
+.in1hbox2{
+    width: 600px;
+    height: 170px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.box1{
+    width: 170px;
+    height: 170px;
+    /* border: 1px solid black; */
+    background-color: azure;
+    background-image: url("hackathon_1.jpg");
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.box1:hover{
+    background-image: url("hackathon_2.jpg");
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* transition-duration:  1s; */
+    transition: all ease-out 1s;
+}
+.b1{
+    /* text-align: center; */
+    font-size: large;
+    margin-left: 10%;
+    margin-top: 137px;
+    position: relative;
+}
+.b1::after{
+    content:"";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0%;
+    /* margin-left: 20%;
+    margin-right: 20%; */
+    align-items: center;
+    background-color: rgb(2, 173, 31);
+    transition: all ease 1s;
+}
+.b1:hover::after{
+    width: 83%;
+}
+
+
+.box2{
+    width: 170px;
+    height: 170px;
+    /* border: 1px solid black; */
+    background-color: azure;
+    /* background-image: url("job1.jpeg");
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat; */
+}
+/* .box2:hover{
+    background-image: url("job2.jpeg");
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition-duration:  1s;
+} */
+.b2{
+    text-align: center;
+}
+/* .b2::after{
+    content:"";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0%;
+    margin-left: 20%;
+    margin-right: 20%;
+    align-items: center;
+    background-color: rgb(2, 173, 31);
+    transition: all ease 1s;
+}
+.b2:hover::after{
+    width: 30%;
+} */
+
+
+.box3{
+    width: 170px;
+    height: 170px;
+    /* border: 1px solid black; */
+    background-color: azure;
+    /* background-image: url("job1.jpeg");
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat; */
+}
+/* .box3:hover{
+    background-image: url("job2.jpeg");
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition-duration:  1s;
+} */
+.b3{
+    text-align: center;
+}
+/* .b3::after{
+    content:"";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0%;
+    margin-left: 20%;
+    margin-right: 20%;
+    align-items: center;
+    background-color: rgb(2, 173, 31);
+    transition: all ease 1s;
+}
+.b3:hover::after{
+    width: 30%;
+} */
+
+
+
+.in2hbox2{
+    width: 600px;
+    height: 170px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.box4{
+    width: 170px;
+    height: 170px;
+    /* border: 1px solid black; */
+    background-color: azure;
+    /* background-image: url("job1.jpeg");
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat; */
+}
+/* .box4:hover{
+    background-image: url("job2.jpeg");
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition-duration:  1s;
+} */
+.b4{
+    text-align: center;
+}
+/* .b4::after{
+    content:"";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0%;
+    margin-left: 20%;
+    margin-right: 20%;
+    align-items: center;
+    background-color: rgb(2, 173, 31);
+    transition: all ease 1s;
+}
+.b4:hover::after{
+    width: 30%;
+} */
+
+
+.box5{
+    width: 170px;
+    height: 170px;  
+    /* border: 1px solid black; */
+    background-color: azure;
+    background-image: url("job1.jpeg");
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.box5:hover{
+    background-image: url("job2.jpeg");
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* transition-duration:  1s; */
+    transition: all ease-out 1s;
+}
+.b5{
+    /* text-align: center; */
+    font-size: larger;
+    margin-left: 40%;
+    margin-top: 120px;
+    position: relative;
+}
+
+.b5::after{
+    content:"";
+    position: absolute;
+    left: 0;
+    bottom: -20%;
+    height: 3px;
+    width: 0%;
+    /* margin-left: 20%; */
+    /* margin-right: 20%; */
+    /* align-items: center; */
+    background-color: rgb(2, 173, 31);
+    transition: all ease 1s;
+}
+.b5:hover::after{
+    width: 30%;
+}
+
+
+.box6{
+    width: 170px;
+    height: 170px;
+    /* border: 1px solid black; */
+    background-color: rgb(228, 255, 255);
+    /* background-image: url("job1.jpeg");
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat; */
+}
+/* .box6:hover{
+    background-image: url("job2.jpeg");
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition-duration:  1s;
+} */
+.b6{
+    text-align: center;
+}
+/* .b6::after{
+    content:"";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0%;
+    margin-left: 20%;
+    margin-right: 20%;
+    align-items: center;
+    background-color: rgb(2, 173, 31);
+    transition: all ease 1s;
+}
+.b6:hover::after{
+    width: 30%;
+} */
+
+
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 3px solid #0055ff;
+}
+
+.in2hboxborder{
+    border-radius: 8px;
+}
+.in2hboxborder:hover{
+    border: 3.4px solid rgb(2, 173, 31);
+    width: 180px;
+    height: 180px;
+}
+
+.signup{
+    width: 80px;
+    height: 30px;
+    /* font-size: 15px; */
+    /* font-weight: bold; */
+    /* color: white; */
+    font-size: medium;
+    font-weight: bolder;
+    border: 0.2px solid white;
+    /* border-size: 1px; */
+    border-radius: 8px 8px 8px 8px;
+    background-color: #ff9900;
+    /* background: linear-gradient(#ff9900,#ca8114); */
+}
