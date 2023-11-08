@@ -1,0 +1,150 @@
+/* 
+.container {
+    text-align: center;
+    padding: 20px;
+}
+.role-box {
+    display: none;
+    border: 1px solid #ccc;
+    padding: 20px;
+    /* width: 10px; */
+    /* border-width: 0cap; */
+    /* margin-top: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+} */
+/* .role-box{
+    background-color: aqua;
+    box-shadow: yellow;
+} */ 
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    /* background-image: url("logo.jpeg");
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat; */
+    
+    
+    /* Rest of your CSS */
+    
+    
+}
+
+.logo{
+    height: 100%;
+    width: 100%;
+    background-image: url("logo2.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+/* Apply a background color and some spacing to the container */
+.container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat; */
+}
+/* .hero_bg_overlay{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    /* height:100%; */
+    /* height: 774px; */
+    /* background-color: rgba(0, 0, 0, 0.6); */
+/* } */ */
+
+/* Style the header */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Style the dropdown */
+#roleDropdown {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Style the role boxes */
+.role-box {
+    display: none;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Style the labels and inputs */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="checkbox"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the submit button */
+/* input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+} */
+
+/* Add some spacing between elements */
+br {
+    display: block;
+    margin: 10px 0;
+}
+#student-e-mail{
+    width:75%;
+}
+#Organizer-e-mail{
+    width:75%;
+}
+body {
+    background-image: url('logo.jpeg'); /* Replace with your overlay image path */
+    background-size: 100% 100%;
+    background-position: center;
+    /* background-attachment: fixed; */
+    position: relative;
+    background-repeat: no-repeat;
+}
+.hero_bg_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust the last value for opacity */
+    z-index: -1; /* Make sure it's above other content */
+}
+
+
